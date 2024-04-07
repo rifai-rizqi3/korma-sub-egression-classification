@@ -37,7 +37,7 @@ func main() {
 	fmt.Printf("Persamaan regresi: Harga = %.2f * LuasRumah + %.2f\n", m, c)
 
 	// Prediksi harga rumah
-	luasRumah := 90.0
+	luasRumah := 120.0
 	hargaPrediksi := m*luasRumah + c
 	fmt.Printf("Prediksi harga rumah dengan luas %.2f: %.2f\n", luasRumah, hargaPrediksi)
 }
